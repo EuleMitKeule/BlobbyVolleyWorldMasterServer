@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: EuleMitKeule/blobby-volley-world-master-server
+  IMAGE_NAME: eulemitkeule/blobby-volley-world-master-server
 
 jobs:
   release:
