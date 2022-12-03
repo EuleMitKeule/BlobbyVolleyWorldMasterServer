@@ -44,6 +44,5 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-          image_name: ${{ env.IMAGE_NAME }}
-          image_tag: latest,${{ needs.release.outputs.version }}
-          dockerfile: Dockerfile
+          image: ${{ env.IMAGE_NAME }}
+          tags: latest,${{ needs.release.outputs.version }}
